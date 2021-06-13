@@ -40,8 +40,8 @@ plt.rcParams['figure.figsize'] = (20,10)
 # In[3]:
 
 
-DATAPATH = './dataSets/external-debt-indicators-for-sri-lanka-1.csv'
-DATAPATH2 = './dataSets/gdp-sri-lanka.csv'
+DATAPATH = './datasets/external-debt-indicators-for-sri-lanka-1.csv'
+DATAPATH2 = './datasets/gdp-sri-lanka.csv'
 
 
 df = pd.read_csv(DATAPATH)
